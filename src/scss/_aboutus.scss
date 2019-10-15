@@ -1,0 +1,115 @@
+// About us page
+// style.css
+/* Table of contents:
+    1.Hero Section
+    2.About Us section
+    3.Winery Banner
+    4.Testemonials
+*/
+
+/* ================
+    1.Hero Section
+=================== */
+.about-us-hero{
+    height: 400px;
+    max-height: 100%;
+    background: url('../assets/img/hero-bg.jpg') no-repeat;
+    background-size: cover;
+    background-position: top center;
+  }
+  
+/* ============
+    2.About Us
+=============== */
+
+  /*about us section vertical images */
+  .verical-img{
+    height: 405px;
+    object-fit: cover;
+    max-width: 100%;
+  }
+  
+  .object-fit_cover { object-fit: cover; }
+  
+/* ================
+    3.Winery Banner
+=================== */
+  .winery-about-us {
+    height: 300px;
+    max-height: 100%;
+    background: url('../assets/img/hero-bg.jpg') no-repeat;
+    background-size: cover;
+    background-position: top center;
+  }
+
+/* ================
+    4.Testemonials
+=================== */
+
+
+  /*testemonials background */
+  .testemonials-about-us {
+    max-height: 100%;
+    min-height: 100%;
+    background: url('../assets/img/hero-bg.jpg') no-repeat;
+    background-size: cover;
+    background-position: top center;
+  }
+  
+  /*testemonials */
+  .col-center {
+      margin: 0 auto;
+      float: none !important;
+  }
+  .carousel {
+      margin: 50px auto;
+      padding: 0 70px;
+  }
+  .carousel .item {
+      color: #999;
+      font-size: 16px;
+      text-align: center;
+      overflow: hidden;
+      min-height: 290px;
+  }
+  .carousel .item .img-box {
+      width: 150px;
+      height: 150px;
+      margin: 0 auto;
+      padding: 5px;
+      border: 1px solid #ddd;
+      border-radius: 50%;
+  }
+  .carousel .img-box img {
+      width: 100%;
+      height: 100%;
+      display: block;
+      border-radius: 50%;
+  }
+  .carousel .testimonial {
+      padding: 30px 0 10px;
+  }
+  .carousel .overview {	
+      font-style: italic;
+  }
+  .carousel .overview .tripadvisor {
+      color: #00af87;
+  }
+  .carousel .carousel-control {
+      width: 40px;
+      height: 40px;
+      margin-top: -20px;
+      top: 50%;
+      background: none;
+  }
+  
+  .carousel .carousel-indicators {
+      bottom: -40px;
+  }
+  .carousel-indicators li, .carousel-indicators li.active {
+          width: 10px;
+          height: 10px;
+          border-radius: 100%;
+  }
+  
+  

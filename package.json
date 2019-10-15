@@ -1,0 +1,26 @@
+{
+  "name": "forza-website",
+  "version": "1.0.0",
+  "description": "Team lead: Mario Cvetkovski\r Team members: Frosina Milkovska, Vladimir Stupar and Mimi Beleska.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/sedc-web-design-2019/forca-team4.git"
+  },
+  "author": "Mario Cvetkovski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/sedc-web-design-2019/forca-team4/issues"
+  },
+  "homepage": "https://gitlab.com/sedc-web-design-2019/forca-team4#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2"
+  },
+  "dependencies": {
+    "rfs": "^8.0.4"
+  }
+}

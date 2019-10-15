@@ -1,0 +1,27 @@
+// _nav.scss
+// Custom variables and bootstrap overriders
+
+.navbar {
+    width: 100%;
+    
+    .nav-link {
+        text-transform: uppercase;
+        font-size: 0.75rem;
+        font-weight: 500 !important;
+        letter-spacing: 0.1rem;
+    }
+}
+
+// navbar background-color
+.bg-black {
+    background-color: black;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: $white-87;
+
+    &:hover {
+        color: $white;
+    }
+}
+
